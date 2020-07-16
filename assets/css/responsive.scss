@@ -5,6 +5,15 @@ $black-color: #111111;
 
 @media only screen and (max-width : 767px) {
 
+    .mob{
+        visibility: hidden;
+        clear: both;
+        float: left;
+    margin: 10px auto 5px 20px;
+    width: 28%;
+    display: none;
+    }
+
     $all-size: 14px;
 
     body {
@@ -369,7 +378,7 @@ $black-color: #111111;
                     font-size: 15px;
                     padding-bottom: 18px;
                     padding-top: 14px;
-                    border-bottom: 1px solid #4d93e959;
+                    border-bottom: 1px solid #db242459;
                     border-top: 2px solid transparent;
                 }
             }
