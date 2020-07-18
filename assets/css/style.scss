@@ -4002,34 +4002,53 @@ footer {
 /*-- End Counter --*/
 /*----- END ABOUT PAGE -----*/
 
-/*-- Back To Top --*/
-#toTop {
-	position: fixed;
-	bottom: 30px;
-    right: 0;
-	cursor: pointer;
-    display: none;
-    z-index: 10;
-}
-.back-to-top-btn i {
-    background-color: $blue-color;
-    color: $white-color;
-    height: 50px;
-    width: 50px;
-    line-height: 50px;
-    display: inline-block;
-    text-align: center;
-    font-size: 26px;
-    border-radius: 50%;
-    transition: $transition;
-    margin-right: 28px;
-    box-shadow: 0px 0px 14px 0px $blue-color;
+// /*-- Back To Top --*/
+// #toTop {
+// 	position: fixed;
+// 	bottom: 30px;
+//     right: 0;
+// 	cursor: pointer;
+//     display: none;
+//     z-index: 10;
+// }
+// .back-to-top-btn i {
+//     background-color: $blue-color;
+//     color: $white-color;
+//     height: 50px;
+//     width: 50px;
+//     line-height: 50px;
+//     display: inline-block;
+//     text-align: center;
+//     font-size: 26px;
+//     border-radius: 50%;
+//     transition: $transition;
+//     margin-right: 28px;
+//     box-shadow: 0px 0px 14px 0px $blue-color;
 
-    &:hover {
-        background-color: $black-color;
-        color: $white-color;
-        box-shadow: 0px 0px 14px 0px $black-color;
-    }
+//     &:hover {
+//         background-color: $black-color;
+//         color: $white-color;
+//         box-shadow: 0px 0px 14px 0px $black-color;
+//     }
+// }
+
+.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:20px;
+	right:100px;
+	background-color:#0C9;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+    box-shadow: 2px 3px 15px -4px rgba(0,0,0,0.59);
+    z-index: 10;
+    cursor: pointer;
+}
+
+.my-float{
+	margin-top:22px;
 }
 
 

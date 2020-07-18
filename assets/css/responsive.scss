@@ -5,6 +5,10 @@ $black-color: #111111;
 
 @media only screen and (max-width : 767px) {
 
+    .float{
+        left:20px;
+    }
+
     .mob{
         visibility: hidden;
         clear: both;
