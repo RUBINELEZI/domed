@@ -61,12 +61,16 @@ $blue-color: #0fb8c3;
 $black-color: #111111;
 
 /*-- Default CSS --*/
+
 body {
     font-family: $common-font;
     color: $grey-color;
     background-color: $white-color;
     font-size: $all-size;
 }
+
+
+
 h1, h2, h3, h4, h5, h6 {
     color: #232323;
 }
@@ -1950,8 +1954,25 @@ footer {
     }
 }
 .banner-item {
+   
     position: relative;
+    
 
+    .contact{
+        display: flex;
+        
+        
+        justify-content: space-between;
+        width: 150px;
+        
+    
+        img{
+            width: 80%;
+            
+        } 
+    
+        
+    }
     h1 {
         font-weight: 700;
         font-size: 48px;
