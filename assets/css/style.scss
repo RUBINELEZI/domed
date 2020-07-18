@@ -4045,8 +4045,21 @@ footer {
     box-shadow: 2px 3px 15px -4px rgba(0,0,0,0.59);
     z-index: 10;
     cursor: pointer;
+}
 
-    
+.float{
+    .pp:visited{
+        color:#FFF;
+    }
+
+    .pp:active {
+        color: #FFF;
+    }
+
+    .pp[tabindex]:focus {
+        color:#FFF;
+        outline: none;
+    }
 }
 
 .pp{
