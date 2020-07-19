@@ -4089,6 +4089,7 @@ footer {
 //     }
 // }
 
+
 .chat{
     width: 100%;
     height: 100%;
@@ -4097,10 +4098,31 @@ footer {
 .chatbox{
     width: 300px;
     height: 600px;
-    
     margin: 10px auto;
-    
-    border: 1px solid purple;
+}
+
+@media (min-width:641px){
+    .big{
+        display: grid;
+        grid-row: 1;
+       
+        grid-template-columns: 2fr 1fr ;
+    }
+
+    .ccf{
+        align-items: center;
+        justify-content: start;
+        
+
+    }
+
+    .location-area{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+ 
 }
 
 /*-- End Back To Top --*/
