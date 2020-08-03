@@ -169,18 +169,7 @@
 	new WOW().init();
 
 	// Back to top 
-	$('body').append('<div id="toTop" class="back-to-top-btn"><i class="icofont-hand-drawn-up"></i></div>');
-	$(window).scroll(function () {
-		if ($(this).scrollTop() != 0) {
-			$('#toTop').fadeIn();
-		} else {
-			$('#toTop').fadeOut();
-		}
-	}); 
-	$('#toTop').on('click', function(){
-		$("html, body").animate({ scrollTop: 0 }, 900);
-		return false;
-	});
+
 
 	// Subscribe form
 	$(".newsletter-form").validator().on("submit", function (event) {
@@ -247,3 +236,36 @@ gen.addEventListener('click' , () =>{
     })
     console.log(wp);
 })
+
+//galery
+$(document).ready(function() {
+ 
+	$("#owl-demo").owlCarousel({
+   
+		nav: true, // Show next and prev buttons
+		slideSpeed : 300,
+		paginationSpeed : 400,
+		singleItem:true,
+		autoPlay : 3000,
+   
+		// "singleItem:true" is a shortcut for:
+		items : 1, 
+		itemsDesktop : false,
+		itemsDesktopSmall : false,
+		itemsTablet: false,
+		itemsMobile : false,
+		dots: false,
+		navText: [
+			"<i class='icofont-simple-left' style='font-size: 50px'; color: #0fb8c3; ></i>",
+			"<i class='icofont-simple-right' style='font-size: 50px'; color:#0fb8c3;></i>"
+		],
+		
+   
+		
+		
+		
+		
+		
+	});
+   
+  });

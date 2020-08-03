@@ -390,6 +390,23 @@ button {
         padding-bottom: 10px;
     }
 }
+
+.bold{
+    background-color: $blue-color;
+   
+    
+    border-radius: 5px;
+
+    &:hover {
+        a {
+            color: white;
+        }
+    }
+}
+
+.txt{
+    color: white;
+}
 /*-- End Navbar --*/
 
 /*-- Home Slider --*/
@@ -3583,7 +3600,7 @@ footer {
 /*----- TESTIMONIAL PAGE -----*/
 /*-- Testimonial --*/
 .testimonial-area {
-    background-image: url('../img/testimonial-bg.jpg');
+  
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -3648,8 +3665,8 @@ footer {
             }  
             .testimonial-item {
                 img {
-                    width: 120px;
-                    height: 120px;
+                    width: 250px;
+                    height: 250px;
                     border-radius: 50%;
                     margin-left: auto;
                     margin-right: auto;
@@ -3676,10 +3693,7 @@ footer {
 /*----- SIGN UP PAGE -----*/
 /*-- Sign Up --*/
 .signup-left {
-    background-image: url('../img/signup-bg.jpg');
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
+   
     width: 100%;
     height: 100%;
 
@@ -4178,6 +4192,13 @@ footer {
  
 }
 
+//galery
+
+#owl-demo .item img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
 
 
 
