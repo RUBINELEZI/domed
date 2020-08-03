@@ -773,25 +773,25 @@ button {
         z-index: -1;
         transition: $transition;
     }
-    &:hover {
-        box-shadow: none;
+    // &:hover {
+    //     box-shadow: none;
 
-        &:before {
-            opacity: 1;
-        }
-        .service-front {
-            display: none;
-            transform: scale(0.5);
-        }
-        .service-end {
-            display: block;
-            transform: scale(1);
+    //     &:before {
+    //         opacity: 1;
+    //     }
+    //     .service-front {
+    //         display: none;
+    //         transform: scale(0.5);
+    //     }
+    //     .service-end {
+    //         display: block;
+    //         transform: scale(1);
 
-            p {
-                margin-bottom: 30px;
-            }
-        }
-    }
+    //         p {
+    //             margin-bottom: 30px;
+    //         }
+    //     }
+    // }
     .service-front {
         transition: $transition;
         display: block;
@@ -810,46 +810,58 @@ button {
         p {
             margin-bottom: 0;
         }
-    }
-    .service-end {
-        position: relative;
-        display: none;
-        transform: scale(0.5);
-        padding-top: 4px;
-        padding-bottom: 5px;
 
-        i {
-            position: absolute;
-            left: 0;
-            right: 0;
-            top: 10%;
-            font-size: 170px;
-            color: #fff;
-            opacity: .10;
-            z-index: -1;
-        }
-        h3 {
-            color: $white-color;
-            font-weight: 600;
-            font-size: 22px;
-            margin-bottom: 20px;
-        }
-        p {
-            margin-bottom: 0;
-            color: $white-color;
-        }
         a {
             display: inline-block;
-            color: $blue-color;
-            background-color: $white-color;
-            padding: 12px 15px;
-
+            color: $white-color;
+            background-color: $blue-color;
+            padding: 8px 10px;
+            border-radius: 5px;
             &:hover {
                 color: $white-color;
                 background-color: $black-color;
             }
         }
     }
+    // .service-end {
+    //     position: relative;
+    //     display: none;
+    //     transform: scale(0.5);
+    //     padding-top: 4px;
+    //     padding-bottom: 5px;
+
+    //     i {
+    //         position: absolute;
+    //         left: 0;
+    //         right: 0;
+    //         top: 10%;
+    //         font-size: 170px;
+    //         color: #fff;
+    //         opacity: .10;
+    //         z-index: -1;
+    //     }
+    //     h3 {
+    //         color: $white-color;
+    //         font-weight: 600;
+    //         font-size: 22px;
+    //         margin-bottom: 20px;
+    //     }
+    //     p {
+    //         margin-bottom: 0;
+    //         color: $white-color;
+    //     }
+    //     a {
+    //         display: inline-block;
+    //         color: $blue-color;
+    //         background-color: $white-color;
+    //         padding: 12px 15px;
+
+    //         &:hover {
+    //             color: $white-color;
+    //             background-color: $black-color;
+    //         }
+    //     }
+    // }
 }
 /*-- End Services --*/
 
@@ -1941,9 +1953,16 @@ footer {
 /*----- Home Page Three -----*/
 /*-- Banner --*/
 .banner-area {
-    height: 700px;
+   height: 75vh;
     position: relative;
+    background-image: linear-gradient(rgba(29, 157, 161, 0.719), rgba(51, 113, 194, 0.5)), url("../img/home-three/bg.jpg");
 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+
+  margin-bottom: 20px;
     .heart-shape {
         img {
             position: absolute;
@@ -1956,35 +1975,22 @@ footer {
 .banner-item {
    
     position: relative;
+   
     
-
-    .contact{
-        display: flex;
-        
-        
-        justify-content: space-between;
-        width: 150px;
-        
-    
-        img{
-            width: 80%;
-            
-        } 
-    
-        
-    }
     h1 {
         font-weight: 700;
         font-size: 48px;
         margin-bottom: 25px;
         max-width: 575px;
         margin-left: 0;
+        color: $black-color;
     }
     p {
-        color: #616263;
+        color: #ffffff;
         margin-bottom: 35px;
         max-width: 575px;
         margin-left: 0;
+        font-size: larger;
     }
     .common-btn-two {
         a {

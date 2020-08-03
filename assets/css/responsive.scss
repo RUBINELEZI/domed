@@ -821,13 +821,11 @@ $black-color: #111111;
         }
 
         h1 {
-            font-size: 26px;
+            font-size: 30px;
             margin-bottom: 20px;
-            padding-top: 280px;
+            
         }
-        p {
-            margin-bottom: 30px;
-        }
+       
         .common-btn-two {
             a {
                 font-size: $all-size;
@@ -840,30 +838,7 @@ $black-color: #111111;
             }
         }
         .banner-right {
-            img {
-                &:nth-child(1) {
-                    top: -55px;
-                    right: 0;
-                    left: 0;
-                    max-width: 285px;
-                }
-                &:nth-child(2) {
-                    top: -43px;
-                    right: 5px;
-                    left: 0;
-                    max-width: 285px;
-                }
-                &:nth-child(3) {
-                    top: -63px;
-                    right: -7px;
-                    left: 0;
-                    max-width: 285px;
-                }
-                &:nth-child(4) {
-                    max-width: 200px;
-                    left: 0;
-                }
-            }
+            display: none;
         }
     }
     /*-- End Banner --*/
