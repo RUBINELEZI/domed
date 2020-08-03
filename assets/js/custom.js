@@ -256,8 +256,8 @@ $(document).ready(function() {
 		itemsMobile : false,
 		dots: false,
 		navText: [
-			"<i class='icofont-simple-left' style='font-size: 50px'; color: #0fb8c3; ></i>",
-			"<i class='icofont-simple-right' style='font-size: 50px'; color:#0fb8c3;></i>"
+			"<i class='arrow icofont-simple-left'></i>",
+			"<i class='arrow icofont-simple-right'></i>"
 		],
 		
    

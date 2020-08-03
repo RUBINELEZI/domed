@@ -4,6 +4,9 @@ $blue-color:#0fb8c3;
 $black-color: #111111;
 
 @media only screen and (max-width : 767px) {
+    .arrow{
+        font-size: 30px;
+    }
 
     .float{
         left:20px;
@@ -3568,3 +3571,5 @@ $black-color: #111111;
         overflow-y: scroll;
     }
 }
+
+
